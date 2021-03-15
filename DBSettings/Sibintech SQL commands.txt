@@ -1,0 +1,37 @@
+CREATE DATABASE sibintech;
+
+USE sibintech;
+
+CREATE TABLE projtree(
+  id INT IDENTITY,
+  code NVARCHAR(256) PRIMARY KEY CHECK(code like 'obj#[0-9]-[0-9][0-9][0-9][0-9]' or code like 'proj#[0-9]-[0-9][0-9][0-9][0-9]'),
+  name NVARCHAR(256) CHECK(name like '[А-Я][а-я]%'),
+  childrens NVARCHAR(256),
+  createdDate DATETIME NOT NULL DEFAULT GETUTCDATE(),
+  redactedDate DATETIME NOT NULL DEFAULT GETUTCDATE(),
+);
+
+INSERT INTO projtree(code, name, childrens) VALUES ('proj#0-0001', 'Бованенковское месторождение', '5,6,7'); 
+INSERT INTO projtree(code, name) VALUES ('proj#0-0002', 'Ванкорское месторождение'); 
+INSERT INTO projtree(code, name) VALUES ('proj#0-0003', 'Чекмагушевское месторождение'); 
+INSERT INTO projtree(code, name) VALUES ('proj#0-0004', 'Даниловское месторождение'); 
+
+INSERT INTO projtree(code, name, childrens) VALUES ('obj#0-0001', 'Кустовая площадка', '8,9'); 
+INSERT INTO projtree(code, name) VALUES ('obj#0-0002', 'Амбар шламовой'); 
+INSERT INTO projtree(code, name) VALUES ('obj#0-0003', 'Водяная скважина'); 
+INSERT INTO projtree(code, name) VALUES ('obj#0-0004', 'Дренажная ёмкость');
+INSERT INTO projtree(code, name) VALUES ('obj#0-0005', 'Прожекторная мачта'); 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

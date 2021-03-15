@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sibintech", "Sibintech\Sibintech.csproj", "{EA193422-88DA-4286-8783-BD1C47F65516}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{DD68E037-B9B7-4976-883F-3EF2F12DA432}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBSettings", "DBSettings\DBSettings.csproj", "{081663E9-FC0E-4276-BB41-B69F99A20BFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA193422-88DA-4286-8783-BD1C47F65516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA193422-88DA-4286-8783-BD1C47F65516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA193422-88DA-4286-8783-BD1C47F65516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA193422-88DA-4286-8783-BD1C47F65516}.Release|Any CPU.Build.0 = Release|Any CPU
+		{081663E9-FC0E-4276-BB41-B69F99A20BFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{081663E9-FC0E-4276-BB41-B69F99A20BFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{081663E9-FC0E-4276-BB41-B69F99A20BFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{081663E9-FC0E-4276-BB41-B69F99A20BFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{081663E9-FC0E-4276-BB41-B69F99A20BFF} = {DD68E037-B9B7-4976-883F-3EF2F12DA432}
+	EndGlobalSection
+EndGlobal

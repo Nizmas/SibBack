@@ -1,0 +1,12 @@
+/home/nimas/Sibintech/SibBack/Sibintech/DBSettings/bin/Debug/netcoreapp3.1/DBSettings.deps.json
+/home/nimas/Sibintech/SibBack/Sibintech/DBSettings/bin/Debug/netcoreapp3.1/DBSettings.runtimeconfig.json
+/home/nimas/Sibintech/SibBack/Sibintech/DBSettings/bin/Debug/netcoreapp3.1/DBSettings.runtimeconfig.dev.json
+/home/nimas/Sibintech/SibBack/Sibintech/DBSettings/bin/Debug/netcoreapp3.1/DBSettings.dll
+/home/nimas/Sibintech/SibBack/Sibintech/DBSettings/bin/Debug/netcoreapp3.1/DBSettings.pdb
+/home/nimas/Sibintech/SibBack/Sibintech/DBSettings/obj/Debug/netcoreapp3.1/DBSettings.csprojAssemblyReference.cache
+/home/nimas/Sibintech/SibBack/Sibintech/DBSettings/obj/Debug/netcoreapp3.1/DBSettings.AssemblyInfoInputs.cache
+/home/nimas/Sibintech/SibBack/Sibintech/DBSettings/obj/Debug/netcoreapp3.1/DBSettings.AssemblyInfo.cs
+/home/nimas/Sibintech/SibBack/Sibintech/DBSettings/obj/Debug/netcoreapp3.1/DBSettings.csproj.CoreCompileInputs.cache
+/home/nimas/Sibintech/SibBack/Sibintech/DBSettings/obj/Debug/netcoreapp3.1/DBSettings.dll
+/home/nimas/Sibintech/SibBack/Sibintech/DBSettings/obj/Debug/netcoreapp3.1/DBSettings.pdb
+/home/nimas/Sibintech/SibBack/Sibintech/DBSettings/obj/Debug/netcoreapp3.1/DBSettings.genruntimeconfig.cache

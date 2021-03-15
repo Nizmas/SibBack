@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\DBSettings\DBSettings.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Kendo.Mvc" Version="2016.2.630-Preview" />
+    </ItemGroup>
+
+
+</Project>

@@ -1,0 +1,133 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/nimas/Sibintech/SibBack/Sibintech/Sibintech/Sibintech.csproj": {}
+  },
+  "projects": {
+    "/home/nimas/Sibintech/SibBack/Sibintech/DBSettings/DBSettings.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/nimas/Sibintech/SibBack/Sibintech/DBSettings/DBSettings.csproj",
+        "projectName": "DBSettings",
+        "projectPath": "/home/nimas/Sibintech/SibBack/Sibintech/DBSettings/DBSettings.csproj",
+        "packagesPath": "/home/nimas/.nuget/packages/",
+        "outputPath": "/home/nimas/Sibintech/SibBack/Sibintech/DBSettings/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/nimas/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.406/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/nimas/Sibintech/SibBack/Sibintech/Sibintech/Sibintech.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/nimas/Sibintech/SibBack/Sibintech/Sibintech/Sibintech.csproj",
+        "projectName": "Sibintech",
+        "projectPath": "/home/nimas/Sibintech/SibBack/Sibintech/Sibintech/Sibintech.csproj",
+        "packagesPath": "/home/nimas/.nuget/packages/",
+        "outputPath": "/home/nimas/Sibintech/SibBack/Sibintech/Sibintech/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/nimas/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/nimas/Sibintech/SibBack/Sibintech/DBSettings/DBSettings.csproj": {
+                "projectPath": "/home/nimas/Sibintech/SibBack/Sibintech/DBSettings/DBSettings.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Kendo.Mvc": {
+              "target": "Package",
+              "version": "[2016.2.630-Preview, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.406/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
